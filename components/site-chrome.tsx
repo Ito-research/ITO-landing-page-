@@ -109,6 +109,7 @@ export function SiteFooter() {
           <a href="/notes">Notes</a>
           <a href="/consulting">Consulting</a>
           <a href="/careers">Careers</a>
+          <a href="/brand-kit">Brand kit</a>
           <span>© 2026</span>
         </div>
       </div>

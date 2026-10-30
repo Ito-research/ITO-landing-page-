@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Itô social card</title>
+  <desc id="description">A social sharing image introducing Itô and its order from noise philosophy.</desc>
+  <rect width="1200" height="630" fill="#F3EFE7"/>
+  <path d="M64 72h1072M64 560h1072" fill="none" stroke="#8A857A" stroke-opacity=".35"/>
+  <g fill="#15140F" font-family="Instrument Serif, Iowan Old Style, Baskerville, Georgia, serif" font-weight="400">
+    <text x="83" y="328" font-size="230" letter-spacing="-16">It</text>
+    <text x="263" y="328" font-size="230">o</text>
+    <text x="83" y="421" font-size="65">Order from noise.</text>
+  </g>
+  <path d="m272 185 50-42 50 42" fill="none" stroke="#C65D3B" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <text x="86" y="496" fill="#8A857A" font-family="DM Mono, SFMono-Regular, Consolas, monospace" font-size="16" letter-spacing="3">A QUANTITATIVE TRADING FIRM FOR DIGITAL ASSET MARKETS</text>
+  <path d="M64 543c140 1 173-12 254-7s115 7 181 0 112 9 181 2 126 1 180 0 96 4 136 0" fill="none" stroke="#8A857A" stroke-opacity=".65"/>
+  <circle cx="1135" cy="538" r="4" fill="#C65D3B"/>
+  <text x="1116" y="596" text-anchor="end" fill="#8A857A" font-family="DM Mono, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="2">ITO.FUND</text>
+</svg>

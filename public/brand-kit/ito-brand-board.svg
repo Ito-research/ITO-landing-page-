@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-labelledby="title description">
+  <title id="title">Itô visual identity</title>
+  <desc id="description">A one-page brand reference with the Itô wordmark, colors, typography, and logo spacing.</desc>
+  <rect width="1600" height="1100" fill="#F3EFE7"/>
+  <text x="100" y="105" fill="#8A857A" font-family="DM Mono, SFMono-Regular, Consolas, monospace" font-size="20" letter-spacing="4">ITÔ / VISUAL IDENTITY / 01</text>
+  <path d="M100 140h1400" stroke="#8A857A" stroke-opacity=".35"/>
+  <g fill="#15140F" font-family="Instrument Serif, Iowan Old Style, Baskerville, Georgia, serif" font-weight="400">
+    <text x="105" y="400" font-size="300" letter-spacing="-20">It</text>
+    <text x="345" y="400" font-size="300">o</text>
+    <text x="105" y="493" font-size="72">Order from noise.</text>
+  </g>
+  <path d="m355 225 66-54 66 54" fill="none" stroke="#C65D3B" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+  <text x="104" y="565" fill="#8A857A" font-family="DM Mono, SFMono-Regular, Consolas, monospace" font-size="18" letter-spacing="3">THE CIRCUMFLEX IS THE MARK. KEEP IT IN CLAY.</text>
+  <path d="M100 625h1400" stroke="#8A857A" stroke-opacity=".35"/>
+  <text x="100" y="687" fill="#8A857A" font-family="DM Mono, SFMono-Regular, Consolas, monospace" font-size="18" letter-spacing="3">PALETTE</text>
+  <g font-family="DM Mono, SFMono-Regular, Consolas, monospace" font-size="16" letter-spacing="1">
+    <rect x="100" y="720" width="300" height="148" fill="#F3EFE7" stroke="#8A857A" stroke-opacity=".35"/>
+    <text x="100" y="902" fill="#15140F">PAPER  #F3EFE7</text>
+    <rect x="450" y="720" width="300" height="148" fill="#15140F"/>
+    <text x="450" y="902" fill="#15140F">INK  #15140F</text>
+    <rect x="800" y="720" width="300" height="148" fill="#8A857A"/>
+    <text x="800" y="902" fill="#15140F">STONE  #8A857A</text>
+    <rect x="1150" y="720" width="300" height="148" fill="#C65D3B"/>
+    <text x="1150" y="902" fill="#15140F">CLAY  #C65D3B</text>
+  </g>
+  <text x="100" y="1002" fill="#15140F" font-family="Instrument Serif, Iowan Old Style, Baskerville, Georgia, serif" font-size="42">Instrument Serif</text>
+  <text x="465" y="1002" fill="#15140F" font-family="DM Sans, Helvetica Neue, Arial, sans-serif" font-size="26">DM Sans · body</text>
+  <text x="810" y="1002" fill="#15140F" font-family="DM Mono, SFMono-Regular, Consolas, monospace" font-size="20">DM Mono · labels</text>
+  <text x="100" y="1054" fill="#8A857A" font-family="DM Mono, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="2">SPACE IS PART OF THE IDENTITY. USE CLAY SPARINGLY.</text>
+</svg>

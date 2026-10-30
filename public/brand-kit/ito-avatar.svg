@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">Itô social avatar</title>
+  <desc id="description">A clay circumflex on paper, designed for a social profile image.</desc>
+  <rect width="1024" height="1024" fill="#F3EFE7"/>
+  <path d="M270 632 512 360l242 272" fill="none" stroke="#C65D3B" stroke-linecap="round" stroke-linejoin="round" stroke-width="15"/>
+  <circle cx="512" cy="512" r="446" fill="none" stroke="#8A857A" stroke-opacity=".35" stroke-width="2"/>
+</svg>

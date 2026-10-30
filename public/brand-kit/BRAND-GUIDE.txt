@@ -1,0 +1,34 @@
+ITO BRAND KIT
+=============
+
+LOGO
+The Itô wordmark is set in a high-contrast serif. Its circumflex is the
+distinctive symbol: keep it visible and use Clay (#C65D3B). The wordmark
+should remain Ink (#15140F) on Paper (#F3EFE7) or a transparent background.
+Do not outline, skew, recolor, or attach a tagline directly to the logo.
+
+SYMBOL
+Use the standalone circumflex as the compact mark, favicon, or avatar.
+Keep clear space around it. A useful minimum is the height of the lowercase t.
+
+COLORS
+Paper   #F3EFE7
+Ink     #15140F
+Stone   #8A857A
+Clay    #C65D3B
+
+TYPE
+Display: Instrument Serif (fallbacks: Iowan Old Style, Baskerville, Georgia)
+Body:    DM Sans (fallback: Helvetica Neue, sans-serif)
+Labels:  DM Mono (fallback: SFMono-Regular, Consolas, monospace)
+
+FILES
+ito-wordmark.svg          Transparent vector wordmark
+ito-wordmark-paper.svg    Wordmark on Paper
+ito-symbol.svg            Standalone circumflex vector
+ito-favicon.svg           Compact wordmark favicon
+ito-avatar.svg            Square social profile vector
+ito-social-card.svg       1200 x 630 social sharing image
+ito-linkedin-banner.svg   1584 x 396 profile banner
+ito-brand-board.svg       One-page visual identity reference
+PNG files                 Ready-to-upload raster versions

@@ -113,18 +113,44 @@ export default function Home() {
   const [intro, setIntro] = useState(true);
   const [activeEssay, setActiveEssay] = useState<number | null>(null);
   const [contactStatus, setContactStatus] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleContactSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleContactSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const formData = new FormData(event.currentTarget);
-    const name = String(formData.get("name"));
-    const email = String(formData.get("email"));
-    const message = String(formData.get("message"));
-    const subject = `Website enquiry from ${name}`;
-    const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
+    if (isSubmitting) return;
 
-    setContactStatus("Your email app should open with your message. If it doesn't, email us directly.");
-    window.location.href = `mailto:hello@ito.fund?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+    const name = String(formData.get("name") || "").trim();
+    const email = String(formData.get("email") || "").trim();
+    const message = String(formData.get("message") || "").trim();
+
+    setIsSubmitting(true);
+    setContactStatus("Sending your note...");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, message }),
+      });
+
+      const data = await response.json().catch(() => ({}));
+
+      if (!response.ok || !data.success) {
+        throw new Error(data.error || "Unable to send note. Please try again.");
+      }
+
+      form.reset();
+      setContactStatus("Note sent. A copy has been delivered to both ito.contact@knolink.co.za and your email.");
+    } catch (error) {
+      console.error("Submission failed:", error);
+      setContactStatus(
+        error instanceof Error ? error.message : "Unable to send note. Please write directly to ito.contact@knolink.co.za."
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   useEffect(() => {
@@ -301,11 +327,11 @@ export default function Home() {
             </div>
             <div className="contact-form-bottom">
               <p className="contact-status" role="status">{contactStatus}</p>
-              <button className="contact-submit eyebrow" type="submit">
-                Send a note <span aria-hidden="true">↗</span>
+              <button className="contact-submit eyebrow" type="submit" disabled={isSubmitting}>
+                {isSubmitting ? "Sending..." : "Send a note"} <span aria-hidden="true">↗</span>
               </button>
             </div>
-            <p className="contact-direct eyebrow">Or write directly to <a href="mailto:hello@ito.fund">hello@ito.fund</a></p>
+            <p className="contact-direct eyebrow">Or write directly to <a href="mailto:ito.contact@knolink.co.za">ito.contact@knolink.co.za</a></p>
           </form>
         </div>
         <svg className="contact-line" viewBox="0 0 1440 2" preserveAspectRatio="none" aria-hidden="true">

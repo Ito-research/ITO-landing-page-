@@ -35,7 +35,7 @@ export default function CareersPage() {
         <div className="careers-note-copy">
           <h2>No open roles<br />just yet.</h2>
           <p>We are early in our build and are not currently advertising positions. If you have a perspective or craft that you think belongs in this work, tell us a little about it.</p>
-          <a className="text-link eyebrow" href="mailto:careers@ito.fund?subject=Working%20at%20It%C3%B4">Write to careers@ito.fund <span aria-hidden="true">↗</span></a>
+          <a className="text-link eyebrow" href="mailto:ito.careers@knolink.co.za?subject=Working%20at%20It%C3%B4">Write to ito.careers@knolink.co.za <span aria-hidden="true">↗</span></a>
         </div>
       </section>
       <SiteFooter />

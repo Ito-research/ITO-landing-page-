@@ -110,6 +110,7 @@ export function SiteFooter() {
           <a href="/consulting">Consulting</a>
           <a href="/careers">Careers</a>
           <a href="/brand-kit">Brand kit</a>
+          <a href="https://knolink.co.za" target="_blank" rel="noopener noreferrer">Knolink</a>
           <span>© 2026</span>
         </div>
       </div>
